@@ -1,0 +1,20 @@
+
+:root:has(.dark-mode input:checked){
+    --bg-color:black;
+    --main-color: RGB(215, 140, 35);
+    --text1-color: #37373F;
+    --text2-color:white;
+    --hover-btn: RGB(215, 140, 35);
+    --button-btn:rgb(42, 40, 40);
+    --flex--video:white;
+}
+
+body:has(.dark-mode input:checked) .dark-mode .light{
+    display: block;
+}
+body:has(.dark-mode input:checked) .dark-mode .dark{
+    display: none;
+}
+body:has(.dark-mode input:checked){
+    background-color: rgb(18, 17, 17);
+}
